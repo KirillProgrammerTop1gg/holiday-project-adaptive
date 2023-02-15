@@ -36,8 +36,11 @@ body {
 }
 
 header {
-  background-color: blue;
+  position: absolute;
   padding-top: 21px;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   header {
@@ -88,4 +91,60 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: center;
+}
+
+.hero {
+  background-image: url(../../image/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 214px;
+  padding-bottom: 138px;
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 30.041px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 52px;
+    line-height: 63px;
+  }
+}
+
+.hero__text {
+  font-weight: 300;
+  font-size: 18.0246px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .hero__text {
+    margin-top: 36px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.hero__button {
+  font-weight: 700;
+  font-size: 13.9987px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF4E50;
+  padding: 13px 38px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 17px;
+}
+@media screen and (min-width: 768px) {
+  .hero__button {
+    margin-top: 45px;
+  }
 }/*# sourceMappingURL=main.css.map */
