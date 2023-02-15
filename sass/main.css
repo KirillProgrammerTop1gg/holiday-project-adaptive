@@ -94,12 +94,17 @@ header {
 }
 
 .hero {
-  background-image: url(../../image/hero.jpg);
+  background-image: url(../image/hero.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 214px;
   padding-bottom: 138px;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 233px;
+  }
 }
 
 .hero__title {
@@ -146,5 +151,12 @@ header {
 @media screen and (min-width: 768px) {
   .hero__button {
     margin-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__button {
+    margin-top: 33px;
   }
 }/*# sourceMappingURL=main.css.map */
