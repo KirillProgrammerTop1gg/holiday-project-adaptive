@@ -20,11 +20,13 @@ a {
   padding-right: 15px;
   outline: solid red;
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 944px;
@@ -32,7 +34,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 header {
@@ -42,6 +44,7 @@ header {
   top: 0;
   width: 100%;
 }
+
 @media screen and (min-width: 768px) {
   header {
     height: 75px;
@@ -49,19 +52,34 @@ header {
 }
 
 .header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 @media screen and (min-width: 768px) {
   .header .container {
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
 .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 113px;
 }
 
@@ -75,8 +93,12 @@ header {
   font-weight: 700;
   font-size: 13.9859px;
   line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: center;
   color: #FFFFFF;
   margin-right: 4px;
@@ -101,6 +123,7 @@ header {
   padding-bottom: 138px;
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-bottom: 233px;
@@ -114,6 +137,7 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
 @media screen and (min-width: 768px) {
   .hero__title {
     font-size: 52px;
@@ -128,6 +152,7 @@ header {
   color: #FFFFFF;
   margin-top: 12px;
 }
+
 @media screen and (min-width: 768px) {
   .hero__text {
     margin-top: 36px;
@@ -148,6 +173,7 @@ header {
   border: none;
   margin-top: 17px;
 }
+
 @media screen and (min-width: 768px) {
   .hero__button {
     margin-top: 45px;
@@ -155,6 +181,7 @@ header {
     padding-right: 10px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .hero__button {
     margin-top: 33px;
@@ -165,12 +192,14 @@ header {
   padding-top: 60px;
   padding-bottom: 56px;
 }
+
 @media screen and (min-width: 768px) {
   .partners {
     padding-top: 71px;
     padding-bottom: 39px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .partners {
     padding-top: 69px;
@@ -184,4 +213,69 @@ header {
   line-height: 27px;
   text-align: center;
   color: #333333;
-}/*# sourceMappingURL=main.css.map */
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__title {
+    margin-bottom: 35px;
+  }
+}
+
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__list {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .partners__list {
+    gap: 20px;
+  }
+}
+
+.partners__item {
+  width: 194px;
+  outline: solid red;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__item {
+    width: 230px;
+  }
+}
+
+.partners__photo {
+  margin-bottom: 13px;
+}
+
+.partners__name {
+  margin-bottom: 13px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14.0112px;
+  line-height: 1.213315;
+  text-align: center;
+  color: #333333;
+}
+
+.partners__about {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14.0112px;
+  line-height: 1.1419436;
+  text-align: center;
+  color: #666666;
+}

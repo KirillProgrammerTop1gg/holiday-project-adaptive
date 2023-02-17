@@ -20,6 +20,47 @@ font-size: 22.0041px;
 line-height: 27px;
 text-align: center;
 color: #333333;
-
+margin-bottom: 20px;
+@media screen and (min-width: 768px) {
+    margin-bottom: 35px;
 }
-
+}
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    @media screen and (min-width: 768px) {
+    gap: 25px;
+    }
+    @media screen and (min-width: 1200px) {
+        gap: 20px;
+    }
+}
+.partners__item {
+    width: 194px;
+    outline: solid red;
+    @media screen and (min-width: 768px) {
+        width: 230px;
+    }
+}
+.partners__photo {
+    margin-bottom: 13px;
+}
+.partners__name {
+margin-bottom: 13px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 14.0112px;
+line-height: 1.213315;
+text-align: center;
+color: #333333;
+}
+.partners__about {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14.0112px;
+    line-height: 1.1419436;
+    text-align: center;
+    color: #666666;
+}
