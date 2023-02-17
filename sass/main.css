@@ -159,4 +159,29 @@ header {
   .hero__button {
     margin-top: 33px;
   }
+}
+
+.partners {
+  padding-top: 60px;
+  padding-bottom: 56px;
+}
+@media screen and (min-width: 768px) {
+  .partners {
+    padding-top: 71px;
+    padding-bottom: 39px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partners {
+    padding-top: 69px;
+    padding-bottom: 72px;
+  }
+}
+
+.partners__title {
+  font-weight: 700;
+  font-size: 22.0041px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
 }/*# sourceMappingURL=main.css.map */
