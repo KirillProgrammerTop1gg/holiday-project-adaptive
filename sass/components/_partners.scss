@@ -30,7 +30,7 @@ margin-bottom: 20px;
     justify-content: center;
     gap: 30px;
     @media screen and (min-width: 768px) {
-    gap: 25px;
+   row-gap: 64px;
     }
     @media screen and (min-width: 1200px) {
         gap: 20px;
@@ -49,6 +49,7 @@ margin-bottom: 20px;
 }
 &__name {
 margin-bottom: 13px;
+margin-top: 13px;
 font-family: 'Montserrat';
 font-weight: 700;
 font-size: 14.0112px;
@@ -117,5 +118,8 @@ color: #333333;
     display: block;
     margin: 29px auto 0;
     border-radius: 30px;
+    @media screen and (min-width: 768px) {
+        margin: 38px auto 0;
+    }
 }
 }

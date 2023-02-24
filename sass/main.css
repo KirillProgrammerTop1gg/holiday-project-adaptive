@@ -198,7 +198,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   .partners__list {
-    gap: 25px;
+    row-gap: 64px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -221,6 +221,7 @@ header {
 }
 .partners__name {
   margin-bottom: 13px;
+  margin-top: 13px;
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 14.0112px;
@@ -289,4 +290,9 @@ header {
   display: block;
   margin: 29px auto 0;
   border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .partners__button {
+    margin: 38px auto 0;
+  }
 }/*# sourceMappingURL=main.css.map */
