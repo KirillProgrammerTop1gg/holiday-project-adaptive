@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./sass/main.css">
   </head>
   <body>
     <header class="header">
@@ -37,22 +37,50 @@
           <h2 class="partners__title">Meet a partner for your best holiday</h2>
           <ul class="partners__list">
             <li class="partners__item">
-              <img src="./image/partners-1.png" alt="partners 1" class="partners__photo"/>
+              <div class="partners__container">
+                <img src="./image/partners-1.png" alt="partners 1" class="partners__photo"/>
+                <div class="partners__icon  partners__icon--tv">
+                  <svg class="partners__svg partners__svg--tv">
+                    <use href="./image/svgs.svg#icon-tv"></use>
+                  </svg>
+                </div>
+              </div>
               <h3 class="partners__name">Bradley Hunter</h3>
               <p class="partners__about">Based in Chicago. I love playing tennis and loud music.</p>
             </li>
             <li class="partners__item">
-              <img src="./image/partners-2.png" alt="partners 2" class="partners__photo" />
+              <div class="partners__container">
+                <img src="./image/partners-2.png" alt="partners 2" class="partners__photo"/>
+                <div class="partners__icon  partners__icon--alhm">
+                  <svg class="partners__svg partners__svg--alhm">
+                    <use href="./image/svgs.svg#icon-alhm"></use>
+                  </svg>
+                </div>
+              </div>
               <h3 class="partners__name">Heather Walker</h3>
               <p class="partners__about">I'm a happy person that loves cats and climbing on mountains.</p>
             </li>
             <li class="partners__item">
-              <img src="./image/partners-3.png" alt="partners 3" class="partners__photo" />
+              <div class="partners__container">
+                <img src="./image/partners-3.png" alt="partners 3" class="partners__photo"/>
+                <div class="partners__icon  partners__icon--cup">
+                  <svg class="partners__svg partners__svg--cup">
+                    <use href="./image/svgs.svg#icon-cup"></use>
+                  </svg>
+                </div>
+              </div>
               <h3 class="partners__name">Lucas Marsha</h3>
               <p class="partners__about">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
             </li>
             <li class="partners__item">
-              <img src="./image/partners-4.png" alt="partners 4" class="partners__photo"/>
+              <div class="partners__container">
+                <img src="./image/partners-4.png" alt="partners 4" class="partners__photo"/>
+                <div class="partners__icon  partners__icon--tg">
+                  <svg class="partners__svg partners__svg--tg">
+                    <use href="./image/svgs.svg#icon-tg"></use>
+                  </svg>
+                </div>
+              </div>
               <h3 class="partners__name">Bradley Hunter</h3>
               <p class="partners__about">Based in Chicago. I love playing tennis and loud music.</p>
             </li>
