@@ -286,6 +286,7 @@ header {
   line-height: 1.21;
   text-align: center;
   color: #FF4E50;
+  display: block;
   margin: 29px auto 0;
   border-radius: 30px;
 }/*# sourceMappingURL=main.css.map */
